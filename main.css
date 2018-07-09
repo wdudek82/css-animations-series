@@ -2,6 +2,13 @@ body {
   padding: 50px;
 }
 
+.trigger {
+  width: 200px;
+  height: 200px;
+  border: 20px solid #999;
+  background: #ddd;
+}
+
 .box {
   display: inline-block;
   background: pink;
@@ -10,7 +17,7 @@ body {
   transition: transform 300ms ease-in-out;
 }
 
-.box:hover {
+.trigger:hover .box {
   transform:
     translate(200px, 150px)
     rotate(20deg);
